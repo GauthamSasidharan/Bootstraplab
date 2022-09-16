@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="signin.css">
+ 
+
+</head>
+
+<body>
+
+<fieldset> 
+    <div class="container">
+<header>
+
+                  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo">
+                  <h1>Sign in to GitHub</h1>
+
+</header>
+    <form method="post" action="login.github">
+                <div class="name">
+                  <label for="user">Username or email address</label>
+                  <input class="field" id="user" type="email text" name="user" required autofocus>
+                </div>
+        <a id="forgetpassword" href="#">Forget password?</a> 
+                <div class="password">
+                   <label id="passwordlabel" for="password">Password</label>
+                   <input class="field" id="password" type="password" name="password" required>
+                </div>
+        <button class="btn btn-success">
+                  <span style="position: relative;
+                  bottom: 5px;font-size: 14px;font-weight: 500;">
+                  Sign in</span>
+        </button>
+    </form>
+                <div id="github">
+                  <p>New to GitHub?</p>
+                  <a href="#">Create an account.</a> 
+                </div>
+<footer>
+    <nav id="navigation">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a display:inline id="last" href="#">ContactGitHub</a>
+    </nav>
+</footer>
+            </div>
+        </div>
+    </div>
+</fieldset>
+</body>
+</html>
